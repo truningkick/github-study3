@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:../../../Desktop/SWIFT_DAY/MyPlayground.playground">
+      location = "group:">
    </FileRef>
 </Workspace>
