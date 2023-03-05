@@ -169,6 +169,7 @@ print("나이: \(myage)")
 */
 //-----------------------------------------------------
 //제네릭 <T> 어떤 자료형이든 들어올 수 있도록 설정
+/*
 struct friend
 {
     var name : String
@@ -177,7 +178,6 @@ struct friend
 struct myarray<T>
 {
     var elements = [T]()     //매개변수
-
     init(_ elements: [T])    //생성자 메소드
     {
         self.elements = elements
@@ -195,4 +195,6 @@ let thirdF = friend(name:"한주")
 
 var myFriendarray = myarray([firstF,secondF,thirdF])
 print("myFriendarray : \(myFriendarray)")
+
 //-----------------------------------------------------
+//클로저
